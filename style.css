@@ -1,0 +1,43 @@
+/*--- Tag Styles ---*/
+
+body {
+    font-family: Helvetica;
+}
+
+h1 {
+    color: khaki;
+    font-size: 100px;
+    font-weight: bold;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+}
+
+strong {
+    color: blue;
+}
+
+/*--- Classes ---*/
+
+.main-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+/*--- ID's ---*/
+
+#brushes .main-title {
+    background-color: mediumspringgreen;
+}
+
+#frames .main-title {
+    background-color: lightcoral;
+}
+
+#paint .main-title {
+    background-color: skyblue;
+}
